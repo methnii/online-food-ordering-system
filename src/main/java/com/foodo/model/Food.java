@@ -1,7 +1,7 @@
 package com.foodo.model;
 
 import jakarta.persistence.*;
-import jdk.jfr.Category;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,6 +21,7 @@ public class Food {
     private String name;
     private String description;
     private Long price;
+
     @ManyToOne
     private Category foodCategory;
 
