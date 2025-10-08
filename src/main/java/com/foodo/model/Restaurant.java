@@ -53,10 +53,4 @@ public class Restaurant {
     private List<Food> foods= new ArrayList<>();
 
 
-
-
-
-
-
-
 }
